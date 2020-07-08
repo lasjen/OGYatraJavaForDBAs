@@ -1,6 +1,8 @@
 # OGYatraJavaForDBAs
 Example code from Oracle Groundbreakers Yatra 2020 conference
 
+You'll find the corresponding blogs at http://www.jcon.no/oracle/?p=1668.
+
 ## Preparing
 To create the Oracle user used in the examples below run the following SQL script as SYS.
 ```
@@ -93,3 +95,7 @@ The example includes java code which uses plain JDBC (See EmployeeJdbcRepository
 
 ### Project: SpringJpaDemo
 This project build on the last project using JPA and Hibernate, showing different methods of writing java code towards the Oracle database. It also shows how you can use the Oracle Unified Connection Pool (UCP) instead of the pre-configured (Spring Boot) connection pool using HikariPool.
+
+I hole you endjoyed the presentation.
+If any questions please send me an e-mail (lasse.jenssen@eritec.no). I can't guarantee an immediate answer, but it's worth a try.
+Good luch!
