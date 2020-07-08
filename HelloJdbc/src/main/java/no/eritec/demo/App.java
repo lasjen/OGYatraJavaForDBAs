@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class App {
-   public final static String DB_URL = "jdbc:oracle:thin:@localhost:1523/orcl";
+   public final static String DB_URL = "jdbc:oracle:thin:@localhost:1521/orcl";
    public final static String DB_USERNAME = "appdata";
    public final static String DB_PASSWORD = "app";
 
