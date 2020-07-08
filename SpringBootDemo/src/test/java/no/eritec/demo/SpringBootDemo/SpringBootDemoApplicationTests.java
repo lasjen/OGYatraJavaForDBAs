@@ -25,7 +25,7 @@ class SpringBootDemoApplicationTests {
 	
 	@Autowired
 	DepartmentRepository deptRepo;
-
+	
 	@Test
 	void contextLoads() {
 	}
@@ -33,7 +33,6 @@ class SpringBootDemoApplicationTests {
 	@Test
 	void EmployeeJdbcRepositoryTest() throws SQLException {
 		List<Employee> list = empRepo.findAll();
-		
 		assertEquals(3, list.size());
 	}
 	

@@ -10,6 +10,7 @@ public class App {
    public final static String DB_URL = "jdbc:oracle:thin:@localhost:1523/orcl";
    public final static String DB_USERNAME = "appdata";
    public final static String DB_PASSWORD = "app";
+
    public static void main(String[] args) throws SQLException{
 
       DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
